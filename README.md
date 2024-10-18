@@ -35,7 +35,7 @@ et d'utiliser une fois `useEffect()`
 2. Lire et commencer à se familiariser avec la structure du projet React
 3. Supprimer les morceaux de code inutiles (pour information j'ai gardé le CSS par flemme 😬 mais vous pouvez faire le votre)
 
-### Étape 1 : mise en place du contexte
+### Étape 1/6 : mise en place du contexte
 
 1. Créer une fonction qui permet de créer le `deck` (paquet de cartes)
     > 💭 Commentaires : Ici, je suis restée simple pour ne pas perdre l'objectif de s'entraîner sur du React mais vous pouvez plus tard vous lancez dans un `deck` plus poussé
@@ -45,7 +45,7 @@ et d'utiliser une fois `useEffect()`
 4. Faire un peu de CSS pour que les cartes soient disposées en lignes et colonnes et pas juste en une seule ligne
     > 💭 Commentaires : pour rester dans la simplicité, je suis partie sur un `deck` de 12 cartes (4 cartes par ligne et 3 lignes). Mon CSS est "en dur" sur cette prise de décision
 
-### Étape 2 : premières intéractions
+### Étape 2/6 : premières intéractions
 
 Ici on va travailler l'intéraction avec les cartes
 
@@ -53,22 +53,35 @@ Ici on va travailler l'intéraction avec les cartes
 2.  Afficher toutes les cartes tournées face cachée. Dans mon exemple, j'ai décidé que la valeur affichée serait un `X` lorsque la carte est face cachée.
 3.  Lorsqu'on clique sur une carte, celle-ci doit se retourner face visible
 
-### Étape 3 : le compteur
+### Étape 3/6 : le compteur
 
 Pour continuer dans le travail de la notion d'état :
 
 1.  Mettre un compteur en place pour comptabiliser le nombre de fois qu'on clique sur une carte
 2.  Le compteur ne doit pas augmenter si on clique sur une carte déjà retournée
 
-### Étape 4 : la notion de paire
+### Étape 4/6 : la notion de paire
+
+Cette partie est la plus challenge de l'exercice, n'oubliez pas de faire des pauses si votre cerveau ne suit plus 😴
 
 Nous allons mettre en place le mécanisme de retournement des cartes
 
-1. Faire en sorte qu'une fois que 2 cartes sont révélées, de les retourner face cachée
-
+1.  Faire en sorte qu'une fois que 2 cartes sont révélées, de les retourner face cachée
     > 💭 Commentaires : ce n'est pas grave si c'est la bonne paire, on retourne quand même. On gèrera le système de garder les paires visibles ensuite.
+2.  Mettre en place un `setTimeout()` à 500 milliseconds de délai pour laisser un petit temps d'attente avant de retourner les 2 cartes cliquées
 
-2. Mettre en place un `setTimeout()` à 500 milliseconds de délai pour laisser un petit temps d'attente avant de retourner les 2 cartes cliquées
+### Étape 5/6 : enregistrer les paires
+
+1. Lorsque les 2 cartes retournées sont les mêmes, afficher un message dans la console "C'est une paire trouvée !"
+2. Enregistrer la paire trouvée
+3. Ne pas retourner face cachée cette paire
+
+### Étape 6/6 : sortir les confettis 🎉
+
+1. Afficher un message de victoire dans la console lorsque
+2. Mettre en place les confettis : installation d'une librairie
+3. Déclencher les confettis en cas de victoire (toutes les paires ont été trouvées)
+4. Mettre en place un bouton pour pouvoir relancer une nouvelle partie
 
 ## Conseils
 
@@ -80,7 +93,7 @@ Il est fortement recommandé de lire de la documentation sur React, de faire vos
 
 Et attention à l'utilisation de l'IA qui peut vous emmener vers la mauvaise route (à avoir challengé pour le fun) 😉
 
-## Pistes d'amélioration possible
+## BONUS : Pistes d'amélioration possible
 
 -   Convertir le projet avec de la POO
 -   Apporter de la UI
