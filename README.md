@@ -31,11 +31,13 @@ et d'utiliser une fois `useEffect()`
 
 🏗️ **en construction**
 
-1. Initier le projet avec ViteJS
+1. Initier le projet avec [ViteJS](https://vitejs.dev/)
 2. Lire et commencer à se familiariser avec la structure du projet React
 3. Supprimer les morceaux de code inutiles (pour information j'ai gardé le CSS par flemme 😬 mais vous pouvez faire le votre)
 
 ### Étape 1/6 : mise en place du contexte
+
+On va débuter tout simplement avec du JavaScript dans notre fichier `App.jsx` !
 
 1. Créer une fonction qui permet de créer le `deck` (paquet de cartes)
     > 💭 Commentaires : Ici, je suis restée simple pour ne pas perdre l'objectif de s'entraîner sur du React mais vous pouvez plus tard vous lancez dans un `deck` plus poussé
@@ -74,22 +76,23 @@ Nous allons mettre en place le mécanisme de retournement des cartes
 
 1. Lorsque les 2 cartes retournées sont les mêmes, afficher un message dans la console "C'est une paire trouvée !"
 2. Enregistrer la paire trouvée
-3. Ne pas retourner face cachée cette paire
+3. Ajuster le code pour ne pas retourner face cachée cette paire
 
 ### Étape 6/6 : sortir les confettis 🎉
 
-1. Afficher un message de victoire dans la console lorsque
+1. Afficher un message de victoire dans la console lorsque toutes les paires ont été trouvées
 2. Mettre en place les confettis : installation d'une librairie
-3. Déclencher les confettis en cas de victoire (toutes les paires ont été trouvées)
+    > 💭 Commentaires : ici j'ai utilisé [`react-confettis`](https://www.npmjs.com/package/react-confetti)
+3. Déclencher les confettis en cas de victoire
 4. Mettre en place un bouton pour pouvoir relancer une nouvelle partie
 
-## Conseils
+## 👀 Conseils
 
-Evidemment le code fourni dans ce repo est la/une solution 🤪
+Evidemment le code fourni dans ce repo est la/**une** solution 🤪
 
 Essayez de faire les étapes sans regarder ce que j'ai fait sinon ça n'a pas de sens.
 
-Il est fortement recommandé de lire de la documentation sur React, de faire vos recherches pour comprendre les différentes notions et d'avoir testé des morceaux de code sur le côté pour travailler chaque concept.
+Il est fortement recommandé de **lire de la documentation sur React**, de faire vos recherches pour comprendre les différentes notions et d'avoir testé des morceaux de code sur le côté pour travailler chaque concept.
 
 Et attention à l'utilisation de l'IA qui peut vous emmener vers la mauvaise route (à avoir challengé pour le fun) 😉
 
