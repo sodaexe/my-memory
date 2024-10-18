@@ -2,7 +2,7 @@
 
 Ce projet est un moyen ludique d'aborder React.
 
-### Le principe du jeu Memory
+### 🧠 Le principe du jeu Memory
 
 est de **réussir à retourner toutes les cartes**.
 On commence par un plateau avec des cartes tournées face cachée.
@@ -11,7 +11,7 @@ L'objectif est de trouver le jumeau de la carte retournée. Si on ne le trouve p
 
 Si le jumeau est trouvé, on laisse les cartes retournées et on en retourne une autre, etc.
 
-### Démonstration en image :
+### 🎤 Démonstration en image :
 
 ![](/public/demonstration_small.gif)
 
