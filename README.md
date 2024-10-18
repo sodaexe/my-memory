@@ -1,15 +1,16 @@
 # Mon Memory Game
 
-Ce projet est un moyen ludique d'aborder React.
+Ce projet est un moyen ludique d'aborder **React**.
 
 ### 🧠 Le principe du jeu Memory
 
-est de **réussir à retourner toutes les cartes**.
+Est de **réussir à retourner toutes les cartes**.
 On commence par un plateau avec des cartes tournées face cachée.
 
-L'objectif est de trouver le jumeau de la carte retournée. Si on ne le trouve pas, on doit remettre les cartes face cachées.
+L'objectif est de trouver le jumeau de la carte retournée :
 
-Si le jumeau est trouvé, on laisse les cartes retournées et on en retourne une autre, etc.
+-   Si on ne le trouve pas, on doit remettre les cartes face cachées.
+-   Si le jumeau est trouvé, on laisse les cartes retournées et on en retourne une autre, etc.
 
 ### 🎤 Démonstration en image :
 
@@ -89,18 +90,22 @@ La partie la plus satisfaisante... les confettis !!!
 1. Afficher un message de victoire dans la console lorsque toutes les paires ont été trouvées
 2. Mettre en place les confettis : installation d'une librairie
     > 💭 Commentaires : ici j'ai utilisé [`react-confettis`](https://www.npmjs.com/package/react-confetti)
-3. Déclencher les confettis en cas de victoire
+3. Déclencher les confettis en cas de victoire 🥳
 4. Mettre en place un bouton pour pouvoir relancer une nouvelle partie
 
 ## 👀 Conseils
 
-Evidemment le code fourni dans ce repo est la/**une** solution 🤪
+Évidemment le code fourni dans ce repo est la/**une** solution 🤪
 
 Essayez de faire les étapes sans regarder ce que j'ai fait sinon ça n'a pas de sens.
 
 Il est fortement recommandé de **lire de la documentation sur React**, de faire vos recherches pour comprendre les différentes notions et d'avoir testé des morceaux de code sur le côté pour travailler chaque concept.
 
 Et attention à l'utilisation de l'IA qui peut vous emmener vers la mauvaise route (à avoir challengé pour le fun) 😉
+
+Allez au plus simple dès le début. La partie de refactoriser pour rendre le code plus optimal doit arriver qu'à la fin. Une fois que le projet est fonctionnel !
+
+> Ceci n'est que mon avis, vous en faites ce que vous voulez 🤗
 
 ## BONUS : Pistes d'amélioration possible
 
