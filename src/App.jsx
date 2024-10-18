@@ -50,18 +50,11 @@ function App() {
     }, []);
 
     const handleClick = (card) => {
-        const newFlipped = [...flipped, card];
-        setFlipped(newFlipped);
+        setFlipped((prev) => [...prev, card]);
 
-        if (newFlipped.length === 2) {
-            if (newFlipped[0].value === newFlipped[1].value) {
-                const newMatched = [...matched, ...newFlipped];
-                setMatched(newMatched);
-                console.log(`c'est un maaaatch`);
-
-                if (newMatched.length === cards.length) {
-                    console.log('BRAVOOOO 🎉');
-                }
+        if (flipped.length === 1) {
+            if (flipped[0].value === card.value) {
+                setMatched((prev) => [...prev, ...flipped, card]);
             }
             setTimeout(() => {
                 setFlipped([]);
