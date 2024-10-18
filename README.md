@@ -16,11 +16,16 @@ Ce projet est un moyen ludique d'aborder React.
 
 ## Enoncé pas à pas
 
-A venir
+🏗️ **en construction**
+
+1. Initier le projet avec ViteJS
+2. Lire et commencer à se familiariser avec la structure du projet React
+3. Supprimer les morceaux de code inutiles (pour information j'ai gardé le CSS par flemme 😬 mais vous pouvez faire le votre)
 
 ## Conseils
 
-Evidemment le code fourni dans ce repo est la solution 🤪
+Evidemment le code fourni dans ce repo est la/une solution 🤪
+
 Essayez de faire les étapes sans regarder ce que j'ai fait sinon ça n'a pas de sens.
 
 Il est fortement recommandé de lire de la documentation sur React, de faire vos recherches pour comprendre les différentes notions et d'avoir testé des morceaux de code sur le côté pour travailler chaque concept.
