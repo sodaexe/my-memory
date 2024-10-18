@@ -1,6 +1,7 @@
 # Mon Memory Game
 
 Ce projet est un moyen ludique d'aborder React.
+
 🎯 L'objectif ici est de surtout comprendre :
 
 -   L'organisation d'un projet React (initié avec ViteJS)
@@ -14,3 +15,11 @@ Ce projet est un moyen ludique d'aborder React.
 ## Enoncé pas à pas
 
 A venir
+
+Evidemment le code fourni dans ce repo est la solution 🤪
+
+Essayez de faire les étapes sans regarder ce que j'ai fait sinon ça n'a pas de sens.
+
+Il est fortement recommandé de lire de la documentation sur React, de faire vos recherches pour comprendre les différentes notions.
+
+Et attention à l'utilisation de l'IA qui peut vous emmener vers la mauvaise route (à avoir challengé pour le fun) 😉
