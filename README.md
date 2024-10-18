@@ -15,7 +15,7 @@ Si le jumeau est trouvé, on laisse les cartes retournées et on en retourne une
 
 ![](/public/demonstration_small.gif)
 
-🎯 L'objectif ici est de surtout comprendre :
+### 🎯 L'objectif ici est de surtout comprendre :
 
 -   L'organisation d'un projet React (initié avec ViteJS)
 -   L'initialisation d'un Prettier dans son projet
@@ -42,6 +42,33 @@ et d'utiliser une fois `useEffect()`
     > Le `deck` doit contenir des doublons, sinon on n'est plus sur du Memory 😅
 2. Créer une fonction `shuffle()` qui permet de mélanger le paquet de cartes
 3. Afficher les cartes en manipulant du `JSX` et `map()`
+4. Faire un peu de CSS pour que les cartes soient disposées en lignes et colonnes et pas juste en une seule ligne
+    > 💭 Commentaires : pour rester dans la simplicité, je suis partie sur un `deck` de 12 cartes (4 cartes par ligne et 3 lignes). Mon CSS est "en dur" sur cette prise de décision
+
+### Étape 2 : premières intéractions
+
+Ici on va travailler l'intéraction avec les cartes
+
+1.  Pour démarrer, lorsqu'on clique sur une carte, on doit pouvoir afficher dans la console, sa valeur
+2.  Afficher toutes les cartes tournées face cachée. Dans mon exemple, j'ai décidé que la valeur affichée serait un `X` lorsque la carte est face cachée.
+3.  Lorsqu'on clique sur une carte, celle-ci doit se retourner face visible
+
+### Étape 3 : le compteur
+
+Pour continuer dans le travail de la notion d'état :
+
+1.  Mettre un compteur en place pour comptabiliser le nombre de fois qu'on clique sur une carte
+2.  Le compteur ne doit pas augmenter si on clique sur une carte déjà retournée
+
+### Étape 4 : la notion de paire
+
+Nous allons mettre en place le mécanisme de retournement des cartes
+
+1. Faire en sorte qu'une fois que 2 cartes sont révélées, de les retourner face cachée
+
+    > 💭 Commentaires : ce n'est pas grave si c'est la bonne paire, on retourne quand même. On gèrera le système de garder les paires visibles ensuite.
+
+2. Mettre en place un `setTimeout()` à 500 milliseconds de délai pour laisser un petit temps d'attente avant de retourner les 2 cartes cliquées
 
 ## Conseils
 
