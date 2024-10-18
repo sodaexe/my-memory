@@ -29,11 +29,12 @@ et d'utiliser une fois `useEffect()`
 
 ## Enoncé pas à pas
 
-🏗️ **en construction**
+### Étape 0 : initialisation du projet
 
 1. Initier le projet avec [ViteJS](https://vitejs.dev/)
 2. Lire et commencer à se familiariser avec la structure du projet React
 3. Supprimer les morceaux de code inutiles (pour information j'ai gardé le CSS par flemme 😬 mais vous pouvez faire le votre)
+4. N'oubliez pas de versionner votre projet 😏
 
 ### Étape 1/6 : mise en place du contexte
 
@@ -52,33 +53,38 @@ On va débuter tout simplement avec du JavaScript dans notre fichier `App.jsx` !
 Ici on va travailler l'intéraction avec les cartes
 
 1.  Pour démarrer, lorsqu'on clique sur une carte, on doit pouvoir afficher dans la console, sa valeur
-2.  Afficher toutes les cartes tournées face cachée. Dans mon exemple, j'ai décidé que la valeur affichée serait un `X` lorsque la carte est face cachée.
+2.  Afficher toutes les cartes tournées face cachée
+    > 💭 Commentaires : Dans mon exemple, j'ai décidé que la valeur affichée serait un `X` lorsque la carte est face cachée.
 3.  Lorsqu'on clique sur une carte, celle-ci doit se retourner face visible
 
 ### Étape 3/6 : le compteur
 
 Pour continuer dans le travail de la notion d'état :
 
-1.  Mettre un compteur en place pour comptabiliser le nombre de fois qu'on clique sur une carte
+1.  Mettre un compteur en place pour suivre le nombre de clics sur les cartes
 2.  Le compteur ne doit pas augmenter si on clique sur une carte déjà retournée
 
 ### Étape 4/6 : la notion de paire
 
-Cette partie est la plus challenge de l'exercice, n'oubliez pas de faire des pauses si votre cerveau ne suit plus 😴
+Cette partie est la plus challenge de l'exercice, n'oubliez pas de **faire des pauses** si votre cerveau ne suit plus 😴
 
 Nous allons mettre en place le mécanisme de retournement des cartes
 
-1.  Faire en sorte qu'une fois que 2 cartes sont révélées, de les retourner face cachée
-    > 💭 Commentaires : ce n'est pas grave si c'est la bonne paire, on retourne quand même. On gèrera le système de garder les paires visibles ensuite.
+1.  Faire en sorte qu'une fois que 2 cartes soient révélées, de les retourner face cachée
+    > 💭 Commentaires : ce n'est pas grave si c'est la bonne paire, on retourne face cachée quand même. On gèrera le système de garder les paires visibles ensuite.
 2.  Mettre en place un `setTimeout()` à 500 milliseconds de délai pour laisser un petit temps d'attente avant de retourner les 2 cartes cliquées
 
 ### Étape 5/6 : enregistrer les paires
+
+💪 Arrivé⸱e à cette étape, il ne te reste plus qu'un petit effort pour finir l'exercice. Bravo !
 
 1. Lorsque les 2 cartes retournées sont les mêmes, afficher un message dans la console "C'est une paire trouvée !"
 2. Enregistrer la paire trouvée
 3. Ajuster le code pour ne pas retourner face cachée cette paire
 
 ### Étape 6/6 : sortir les confettis 🎉
+
+La partie la plus satisfaisante... les confettis !!!
 
 1. Afficher un message de victoire dans la console lorsque toutes les paires ont été trouvées
 2. Mettre en place les confettis : installation d'une librairie
