@@ -1,8 +1,16 @@
-# React + Vite
+# Mon Memory Game
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Ce projet est un moyen ludique d'aborder React.
+🎯 L'objectif ici est de surtout comprendre :
 
-Currently, two official plugins are available:
+-   L'organisation d'un projet React (initié avec ViteJS)
+-   L'initialisation d'un Prettier dans son projet
+-   Comprendre ce qu'est un `Composant`
+-   Comprendre ce que sont les `props` et leur utilité
+-   Ce qu'est un `State`
+-   Comprendre les notions de déstructuration et de décomposition en JavaScript
+-   et d'utiliser une fois `useEffect()`
 
--   [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
--   [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Enoncé pas à pas
+
+A venir
