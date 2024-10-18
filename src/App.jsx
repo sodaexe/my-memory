@@ -71,13 +71,22 @@ function App() {
         }
     };
 
+    const handleReload = () => {
+        setCards(createDeck());
+        setCounter(0);
+        setFlipped([]);
+        setMatched([]);
+    };
+
     return (
         <>
             {matched.length === cards.length && <Confetti />}
             <div id="playhead">
                 <div id="counter">Nombre de coups : {counter}</div>
                 <div>
-                    <a href="#">reload()</a>
+                    <a href="#" onClick={handleReload}>
+                        reload()
+                    </a>
                 </div>
             </div>
             <div id="playground">
