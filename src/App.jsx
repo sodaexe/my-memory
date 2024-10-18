@@ -31,7 +31,9 @@ const createDeck = () => {
 
 function Card({card, onClick, isFlipped}) {
     const handleClick = () => {
-        onClick(card);
+        if (!isFlipped) {
+            onClick(card);
+        }
     };
 
     return <button onClick={handleClick}>{isFlipped ? card.value : 'X'}</button>;
