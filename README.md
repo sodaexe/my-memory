@@ -2,7 +2,7 @@
 
 Ce projet est un moyen ludique d'aborder React.
 
-![](demonstration.gif)
+![](/public/demonstration.gif)
 
 🎯 L'objectif ici est de surtout comprendre :
 
