@@ -18,11 +18,12 @@ Ce projet est un moyen ludique d'aborder React.
 
 A venir
 
-Evidemment le code fourni dans ce repo est la solution 🤪
+## Conseils
 
+Evidemment le code fourni dans ce repo est la solution 🤪
 Essayez de faire les étapes sans regarder ce que j'ai fait sinon ça n'a pas de sens.
 
-Il est fortement recommandé de lire de la documentation sur React, de faire vos recherches pour comprendre les différentes notions.
+Il est fortement recommandé de lire de la documentation sur React, de faire vos recherches pour comprendre les différentes notions et d'avoir testé des morceaux de code sur le côté pour travailler chaque concept.
 
 Et attention à l'utilisation de l'IA qui peut vous emmener vers la mauvaise route (à avoir challengé pour le fun) 😉
 
