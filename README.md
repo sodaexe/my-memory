@@ -16,7 +16,9 @@ L'objectif est de trouver le jumeau de la carte retournée :
 
 ![](/public/demonstration_small.gif)
 
-### 🎯 L'objectif ici est de surtout comprendre :
+## 🎯 Les objectifs ici
+
+Sont de comprendre :
 
 -   L'organisation d'un projet React (initié avec ViteJS)
 -   L'initialisation d'un Prettier dans son projet
@@ -123,4 +125,4 @@ Et attention à l'utilisation de l'IA qui peut t'emmener vers la mauvaise route 
 
 Et surtout n'hésite pas à venir partager tes productions et même questions !
 
-Si tu ne connais pas encore la communauté de [Code Passport](www.codepassport.dev), il n'est pas trop tard pour rejoindre le [Discord](https://discord.gg/nrXZm62Ybj)
+Si tu ne connais pas encore la communauté de [Code Passport](www.codepassport.dev), il n'est pas trop tard pour rejoindre le [Discord](https://discord.gg/nrXZm62Ybj).
