@@ -9,7 +9,7 @@ On commence par un plateau avec des cartes tournées face cachée.
 
 L'objectif est de trouver le jumeau de la carte retournée :
 
--   Si on ne le trouve pas, on doit remettre les cartes face cachées.
+-   Si on ne le trouve pas, on doit remettre les cartes face cachée.
 -   Si le jumeau est trouvé, on laisse les cartes retournées et on en retourne une autre, etc.
 
 ### 🎤 Démonstration en image :
@@ -35,14 +35,15 @@ et d'utiliser une fois `useEffect()`
 1. Initier le projet avec [ViteJS](https://vitejs.dev/)
 2. Lire et commencer à se familiariser avec la structure du projet React
 3. Supprimer les morceaux de code inutiles (pour information j'ai gardé le CSS par flemme 😬 mais vous pouvez faire le votre)
-4. N'oubliez pas de versionner votre projet 😏
+4. Configurer Prettier sur son projet
+5. N'oublie pas de versionner ton projet 😏
 
 ### Étape 1/6 : mise en place du contexte
 
 On va débuter tout simplement avec du JavaScript dans notre fichier `App.jsx` !
 
 1. Créer une fonction qui permet de créer le `deck` (paquet de cartes)
-    > 💭 Commentaires : Ici, je suis restée simple pour ne pas perdre l'objectif de s'entraîner sur du React mais vous pouvez plus tard vous lancez dans un `deck` plus poussé
+    > 💭 Commentaires : Ici, je suis restée simple pour ne pas perdre l'objectif de s'entraîner sur du React mais tu peux, plus tard, te lancer dans une gestion de `deck` plus poussée
     > Le `deck` doit contenir des doublons, sinon on n'est plus sur du Memory 😅
 2. Créer une fonction `shuffle()` qui permet de mélanger le paquet de cartes
 3. Afficher les cartes en manipulant du `JSX` et `map()`
@@ -67,13 +68,15 @@ Pour continuer dans le travail de la notion d'état :
 
 ### Étape 4/6 : la notion de paire
 
-Cette partie est la plus challenge de l'exercice, n'oubliez pas de **faire des pauses** si votre cerveau ne suit plus 😴
+Cette partie est la plus challenge de l'exercice, n'oublie pas de **faire des pauses** si ton cerveau ne suit plus 😴
 
 Nous allons mettre en place le mécanisme de retournement des cartes
 
 1.  Faire en sorte qu'une fois que 2 cartes soient révélées, de les retourner face cachée
     > 💭 Commentaires : ce n'est pas grave si c'est la bonne paire, on retourne face cachée quand même. On gèrera le système de garder les paires visibles ensuite.
 2.  Mettre en place un `setTimeout()` à 500 milliseconds de délai pour laisser un petit temps d'attente avant de retourner les 2 cartes cliquées
+
+💅 Bonus pour les personnes un peu plus UI : tu peux mettre en place une animation lorsque la carte se retourne.
 
 ### Étape 5/6 : enregistrer les paires
 
@@ -97,18 +100,26 @@ La partie la plus satisfaisante... les confettis !!!
 
 Évidemment le code fourni dans ce repo est la/**une** solution 🤪
 
-Essayez de faire les étapes sans regarder ce que j'ai fait sinon ça n'a pas de sens.
+Essaye de faire les étapes sans regarder ce que j'ai fait sinon ça n'a pas de sens.
 
-Il est fortement recommandé de **lire de la documentation sur React**, de faire vos recherches pour comprendre les différentes notions et d'avoir testé des morceaux de code sur le côté pour travailler chaque concept.
+Il est fortement recommandé de **lire de la documentation sur React**, de faire tes recherches pour comprendre les différentes notions et d'avoir testé des morceaux de code sur le côté pour travailler chaque concept.
 
-Et attention à l'utilisation de l'IA qui peut vous emmener vers la mauvaise route (à avoir challengé pour le fun) 😉
+Et attention à l'utilisation de l'IA qui peut t'emmener vers la mauvaise route (_mon retour après avoir challengé pour le fun_) 😉
 
-Allez au plus simple dès le début. La partie de refactoriser pour rendre le code plus optimal doit arriver qu'à la fin. Une fois que le projet est fonctionnel !
-
-> Ceci n'est que mon avis, vous en faites ce que vous voulez 🤗
+**Va au plus simple dès le début**. L'étape de refactorisation pour rendre le code plus optimal doit arriver qu'à la fin : une fois le projet fonctionnel !
 
 ## BONUS : Pistes d'amélioration possible
 
 -   Convertir le projet avec de la POO
--   Apporter de la UI
+-   Apporter de l'UX/UI
 -   Intégrer TypeScript
+-   Ajouter un classement pour enregistrer les personnes qui ont reussi à trouver les paires avec le moins de coups
+-   Ajouter un _bot_ contre lequel jouer
+    > chaque joueur⸱se joue une fois sur deux
+    > exemple : le joueur 1 retourne 2 cartes, si c'est une paire, il continue si ce n'est pas une paire, c'est au tour de joueuse 2, etc.
+
+## Partager 🫶
+
+Et surtout n'hésitez pas à venir partager vos productions et même questions !
+
+Si tu ne connais pas encore la communauté de [Code Passport](www.codepassport.dev), il n'est pas trop tard pour rejoindre le [Discord](https://discord.gg/nrXZm62Ybj)
