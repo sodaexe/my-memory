@@ -126,3 +126,6 @@ Et attention à l'utilisation de l'IA qui peut t'emmener vers la mauvaise route 
 Et surtout n'hésite pas à venir partager tes productions et même questions !
 
 Si tu ne connais pas encore la communauté de [Code Passport](www.codepassport.dev), il n'est pas trop tard pour rejoindre le [Discord](https://discord.gg/nrXZm62Ybj).
+
+> ☝️ Pour rappel cet exercice est développé pour faire ses premiers pas en React. Il est donc volontaire de ne pas avoir introduit des notions comme useCallback() et d'avoir très peu axé sur la UI ou autre complexification.
+> Tous retours constructifs pour améliorer cet exercice sont bienvenus !
