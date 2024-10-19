@@ -16,9 +16,9 @@ L'objectif est de trouver le jumeau de la carte retournée :
 
 ![](/public/demonstration_small.gif)
 
-## 🎯 Les objectifs ici
+## 🎯 Objectifs
 
-Sont de comprendre :
+Les objectifs ici sont de comprendre :
 
 -   L'organisation d'un projet React (initié avec ViteJS)
 -   L'initialisation d'un Prettier dans son projet
@@ -54,7 +54,7 @@ On va débuter tout simplement avec du JavaScript dans notre fichier `App.jsx` !
 
 ### Étape 2/6 : premières intéractions
 
-Ici on va travailler l'intéraction avec les cartes
+Ici on va travailler l'intéraction avec les cartes :
 
 1.  Pour démarrer, lorsqu'on clique sur une carte, on doit pouvoir afficher dans la console, sa valeur
 2.  Afficher toutes les cartes tournées face cachée
@@ -72,7 +72,7 @@ Pour continuer dans le travail de la notion d'état :
 
 Cette partie est la plus challenge de l'exercice, n'oublie pas de **faire des pauses** si ton cerveau ne suit plus 😴
 
-Nous allons mettre en place le mécanisme de retournement des cartes
+Nous allons mettre en place le mécanisme de retournement des cartes :
 
 1.  Faire en sorte qu'une fois que 2 cartes soient révélées, de les retourner face cachée
     > 💭 Commentaires : ce n'est pas grave si c'est la bonne paire, on retourne face cachée quand même. On gèrera le système de garder les paires visibles ensuite.
