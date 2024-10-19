@@ -34,7 +34,7 @@ et d'utiliser une fois `useEffect()`
 
 1. Initier le projet avec [ViteJS](https://vitejs.dev/)
 2. Lire et commencer à se familiariser avec la structure du projet React
-3. Supprimer les morceaux de code inutiles (pour information j'ai gardé le CSS par flemme 😬 mais vous pouvez faire le votre)
+3. Supprimer les morceaux de code inutiles (pour information j'ai gardé le CSS par flemme 😬 mais tu peux faire le tien)
 4. Configurer Prettier sur son projet
 5. N'oublie pas de versionner ton projet 😏
 
@@ -113,13 +113,14 @@ Et attention à l'utilisation de l'IA qui peut t'emmener vers la mauvaise route 
 -   Convertir le projet avec de la POO
 -   Apporter de l'UX/UI
 -   Intégrer TypeScript
+-   Pouvoir augmenter ou diminuer la difficulté en variant le nombre de cartes sur le plateau
 -   Ajouter un classement pour enregistrer les personnes qui ont reussi à trouver les paires avec le moins de coups
--   Ajouter un _bot_ contre lequel jouer
+-   Ajouter un _bot_ contre lequel jouer ou pouvoir jouer à 2
     > chaque joueur⸱se joue une fois sur deux
     > exemple : le joueur 1 retourne 2 cartes, si c'est une paire, il continue si ce n'est pas une paire, c'est au tour de joueuse 2, etc.
 
 ## Partager 🫶
 
-Et surtout n'hésitez pas à venir partager vos productions et même questions !
+Et surtout n'hésite pas à venir partager tes productions et même questions !
 
 Si tu ne connais pas encore la communauté de [Code Passport](www.codepassport.dev), il n'est pas trop tard pour rejoindre le [Discord](https://discord.gg/nrXZm62Ybj)
